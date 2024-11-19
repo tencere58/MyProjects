@@ -2,7 +2,7 @@ from rembg import remove
 
 input_path = "img.png"
 
-output_path = "output.png"
+output_path = "out.png"
 
 with open(input_path, "rb") as i:
     with open(output_path, "wb") as o:
